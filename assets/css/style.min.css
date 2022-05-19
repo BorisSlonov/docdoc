@@ -857,7 +857,7 @@ a {
   }
   .header__left-wrapper {
     width: 100%;
-    max-width: 240px;
+    max-width: 300px;
   }
   .header__wrapper {
     justify-content: flex-start;
@@ -1024,6 +1024,9 @@ a {
 @media (max-width: 466px) {
   .header__left-wrapper {
     width: 100%;
+  }
+  .header__left-wrapper div:not(:first-child) {
+      margin-left: 15px;
   }
   .header__site {
     font-size: 17px;
